@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"dependency","l":"CoNLLToken"},{"p":"dependency","l":"DependencyChunk"},{"p":"dependency","l":"DependencyChunker"},{"p":"examples","l":"DependencyChunkerExample"},{"p":"dependency","l":"DependencyParser"},{"p":"examples","l":"DependencyParserExample"},{"p":"dependency","l":"DependencyParsingException"}]

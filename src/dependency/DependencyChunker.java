@@ -11,7 +11,7 @@ import java.util.Properties;
  * This class ...
  *
  * @author   Ricardo Rodrigues
- * @version  0.9.7
+ * @version  0.9.9
  */
 public class DependencyChunker {
   private static final String DEFAULT_PROP =
@@ -241,7 +241,7 @@ public class DependencyChunker {
    */
   public DependencyChunk[] parseChunks() {
     // the chunk's id is dependent on the index of the token found
-    // at it's root: the first chunk corresponds to the index of the head token
+    // at its root: the first chunk corresponds to the index of the head token
     // that was found first, the second chunk to the second head token
     // and so on, as the tokens are processed sequentially
     ArrayList<DependencyChunk> chunkList = new ArrayList<DependencyChunk>();
@@ -309,7 +309,7 @@ public class DependencyChunker {
    */
   public DependencyChunk[] parseRootChunks() {
     // the chunk's id is dependent on the index of the token found
-    // at it's root: the first chunk corresponds to the index of the head token
+    // at its root: the first chunk corresponds to the index of the head token
     // that was found first, the second chunk to the second head token
     // and so on, as the tokens are processed sequentially
     ArrayList<DependencyChunk> chunkList = new ArrayList<DependencyChunk>();
